@@ -4,35 +4,147 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Some</title>
-    <style>
-      *{
-        margin: 0;
-        padding: 0;
-      }
-      #head{
-        color: yellow;
-      }
-      .section{
-        color: wheat;
-      }
-      
-    </style>
+    <title>Website</title>
   </head>
 
   <body>
-    <div>
-      <h1>Hello World</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nesciunt hic, dicta, nisi nulla repellat rerum veritatis adipisci neque similique delectus, deleniti repudiandae quis id ipsum nobis. Obcaecati, facere adipisci.</p>
-    </div>
-
-    <div id="head">
-      <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ea facere delectus atque, fuga laborum asperiores, aliquid dignissimos minima quidem molestiae impedit cum saepe expedita provident, labore earum corrupti perferendis.</h2>
-    </div>
-    <div class="section">
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minima distinctio vitae in odit quae eligendi veniam libero illum quibusdam quo perspiciatis eaque numquam, voluptatem soluta quam, error nisi nobis?</h2>
-    </div>
+    <h1>Hello World</h1>
+    <h2>Welcome to my World</h2>
+    <strong> <a href="contact.html">Contact Me</a></strong><br>
+    <strong><a href="https://www.w3schools.com/html/" target="_blank">Web Link</a></strong>
     
+    <a href="#visit">Visit Down</a>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, ab.</p>
+    <strong>This is Bold &nbsp; &star;</strong><br>
+    <em>This is Italic</em><br>
+    <u>This is Underline.</u>
+    <hr>
+    <p>H<sub>2</sub>O</p>
+    <p>10<sup>th</sup></p>
+    <img src="assets/f1.jpg" alt="" height="400px" width="300px"><br>
+
+    <h2>Image In Table</h2>
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td> <img src="assets/f1.jpg" alt="" height="300px" width="200px"></td>
+          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quo ipsum dolore quae voluptas eligendi quasi ullam vero aut aliquid quaerat tenetur accusantium sint nobis est saepe, qui, minus mollitia? Voluptates temporibus quisquam alias, ratione eligendi sint debitis quia quis sit asperiores accusamus. Officiis, animi quibusdam mollitia quaerat repudiandae eveniet.</td>
+        </tr>
+      </tbody>
+        
+    </table>
+
+    <h2>My Fav Video</h2>
+     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/SHT0y9Gq_rk?si=6NFHCjS4qwbS5Bjy?autoplay=1&muted=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+    <video src="https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4" height="200px" width="200px" loop controls muted></video>
+
+    <audio src="https://s3.amazonaws.com/scifri-episodes/scifri20181123-episode.mp3" loop controls></audio>
+
+    <h3>My Skills</h3>
+
+    <table border="2" cellspacing="0" cellpadding="5px">
+      <thead>
+      <tr>
+        <th>Language</th>
+        <th>Ratings</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>React</td>
+        <td>⭐️⭐️⭐️⭐️</td>
+      </tr>
+      <tr>
+        <td>Javascript</td>
+        <td>⭐️⭐️⭐️⭐️⭐️</td>
+      </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>All of</td>
+          <td>&nbsp;&nbsp; Great</td>
+        </tr>
+      </tfoot>
+
+    </table>
+
+
+    <table border="2" cellspacing="2" cellpadding="7px">
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Marks</th>
+          <th>Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Data Structure and Algorithm</td>
+          <td>60</td>
+          <td>Pass</td>
+        </tr>
+        <tr>
+          <td>Digital Logic</td>
+          <td>70</td>
+          <td>Pass</td>
+        </tr>
+        <tr>
+          <td>Web Technology</td>
+          <td>55</td>
+          <td>Pass</td>
+        </tr>
+        <tr>
+          <td>Industrial Management</td>
+          <td>65</td>
+          <td>Pass</td>
+        </tr>
+        <tr>
+          <td>E-commerce</td>
+          <td>75</td>
+          <td>Pass</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total Marks</td>
+          <td colspan="2">&nbsp;&nbsp; 325</td>
+        </tr>
+      </tfoot>
+    </table>
+
+
+
+    <dl>
+      <dt>Chapter 1</dt>
+      <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam pariatur laudantium ipsum. Quidem, optio. Sed!</dd>
+      <dd>Lorem ipsum dolor sit amet.</dd>
+      <dt>Chapter 2</dt>
+      <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, porro?</dd>
+    </dl>
+    <!-- unorder list -->
+    <h3>My Hobbies</h3>
+    <ul type="button">
+      <li>Reading</li>
+      <li>Writing</li>
+      <li>Listening Music</li>
+    </ul>
+    <!-- order list -->
+    <h3>My Fav Kdrama</h3>
+    <ol type="i">
+      <li>Goblin</li>
+      <li>Uncontrollably Fond</li>
+      <li>Moon Lovers</li>
+    </ol>
+
+    <a id="visit">Visit Here</a>
+
   </body>
 
 </html>
